@@ -1,3 +1,4 @@
+
 To add a file to the repository
 
 creating and staging file for commit
@@ -7,8 +8,19 @@ creating and staging file for commit
 4.now check whether it is being tracked or not by
  git status
 5.git commit -m "comments to add"
-----------------------------------
 
+----------------------------------
+To add a local folder to the repository
+
+1. open git bash
+2. cd <directory name>
+3. git init -b main (to initialize the local directory to the main branch
+4.git add .
+5.git commit -m "message"
+6.copy the repo link from github
+7.git remote add origin <url to the repo>
+8.git remote -v	--- to verify remote url
+------------------------------------------------------
 to clear the made commits 
 1.git reset <commit id> --> id from which you want to remove the commits
 
